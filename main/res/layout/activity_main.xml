@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.garrettp.myfinalproject.MainActivity"
+    android:background="@android:color/darker_gray"
+    android:screenOrientation="landscape">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="600dp"
+        android:layout_height="360dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="85.71dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="ROLL"
+                android:layout_width="match_parent"
+                android:layout_height="85.71dp"
+                android:id="@+id/TapButton1"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColorLink="@android:color/darker_gray"
+                android:fadingEdgeLength="5dp"
+                android:textColor="@android:color/black"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:backgroundTintMode="multiply"
+                android:foreground="@android:color/transparent"
+                android:background="@android:drawable/ic_menu_mylocation" />
+
+            <TextView
+                android:text="Def"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/DefView"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="36sp"
+                android:background="?attr/colorButtonNormal"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <ImageButton
+                android:id="@+id/DefUpButton"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/ic_triangle_up" />
+
+            <TextView
+                android:text="@string/DefStat"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/DefStat"
+                android:textColor="@android:color/black"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:background="?attr/colorButtonNormal"
+                android:gravity="center_vertical|fill_horizontal" />
+
+            <ImageButton
+                android:id="@+id/DefDownButton"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/ic_triangle_down" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="85.71dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="ROLL"
+                android:layout_width="match_parent"
+                android:layout_height="85.71dp"
+                android:id="@+id/TapButton2"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColorLink="@android:color/darker_gray"
+                android:fadingEdgeLength="5dp"
+                android:textColor="@android:color/black"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:backgroundTintMode="multiply"
+                android:foreground="@android:color/transparent"
+                android:background="@android:drawable/ic_menu_mylocation" />
+
+
+            <TextView
+                android:text="Str"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/StrView"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="36sp"
+                android:background="?attr/colorButtonNormal"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <ImageButton
+                android:id="@+id/StrUpButton"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/ic_triangle_up" />
+
+            <TextView
+                android:text="@string/StrStat"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/StrStat"
+                android:textColor="@android:color/black"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:background="?attr/colorButtonNormal"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <ImageButton
+                android:id="@+id/StrDownButton"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/ic_triangle_down" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="85.5dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="ROLL"
+                android:layout_width="match_parent"
+                android:layout_height="85.71dp"
+                android:id="@+id/TapButton3"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColorLink="@android:color/darker_gray"
+                android:fadingEdgeLength="5dp"
+                android:textColor="@android:color/black"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:backgroundTintMode="multiply"
+                android:foreground="@android:color/transparent"
+                android:background="@android:drawable/ic_menu_mylocation" />
+
+
+            <TextView
+                android:text="Dex"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/DexView"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="36sp"
+                android:background="?attr/colorButtonNormal"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <ImageButton
+                android:id="@+id/DexUpButton"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/ic_triangle_up" />
+
+            <TextView
+                android:text="@string/DexStat"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/DexStat"
+                android:textColor="@android:color/black"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:background="?attr/colorButtonNormal"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <ImageButton
+                android:id="@+id/DexDownButton"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/ic_triangle_down" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="85.71dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="ROLL"
+                android:layout_width="match_parent"
+                android:layout_height="85.71dp"
+                android:id="@+id/TapButton4"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColorLink="@android:color/darker_gray"
+                android:fadingEdgeLength="5dp"
+                android:textColor="@android:color/black"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:backgroundTintMode="multiply"
+                android:foreground="@android:color/transparent"
+                android:background="@android:drawable/ic_menu_mylocation" />
+
+
+            <TextView
+                android:text="Con"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/ConView"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="36sp"
+                android:background="?attr/colorButtonNormal"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <ImageButton
+                android:id="@+id/ConUpButton"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/ic_triangle_up" />
+
+            <TextView
+                android:text="@string/ConStat"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/ConStat"
+                android:textColor="@android:color/black"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:background="?attr/colorButtonNormal"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <ImageButton
+                android:id="@+id/ConDownButton"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/ic_triangle_down" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="85.71dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="ROLL"
+                android:layout_width="match_parent"
+                android:layout_height="85.71dp"
+                android:id="@+id/TapButton5"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColorLink="@android:color/darker_gray"
+                android:fadingEdgeLength="5dp"
+                android:textColor="@android:color/black"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:backgroundTintMode="multiply"
+                android:foreground="@android:color/transparent"
+                android:background="@android:drawable/ic_menu_mylocation" />
+
+
+            <TextView
+                android:text="Int"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/IntView"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="36sp"
+                android:background="?attr/colorButtonNormal"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <ImageButton
+                android:id="@+id/IntUpButton"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/ic_triangle_up" />
+
+            <TextView
+                android:text="@string/IntStat"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/IntStat"
+                android:textColor="@android:color/black"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:background="?attr/colorButtonNormal"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <ImageButton
+                android:id="@+id/IntDownButton"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/ic_triangle_down" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="85.71dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="ROLL"
+                android:layout_width="match_parent"
+                android:layout_height="85.71dp"
+                android:id="@+id/TapButton6"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColorLink="@android:color/darker_gray"
+                android:fadingEdgeLength="5dp"
+                android:textColor="@android:color/black"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:backgroundTintMode="multiply"
+                android:foreground="@android:color/transparent"
+                android:background="@android:drawable/ic_menu_mylocation" />
+
+
+            <TextView
+                android:text="Wis"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/WisView"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="36sp"
+                android:background="?attr/colorButtonNormal"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <ImageButton
+                android:id="@+id/WisUpButton"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/ic_triangle_up" />
+
+            <TextView
+                android:text="@string/WisStat"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/WisStat"
+                android:textColor="@android:color/black"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:background="?attr/colorButtonNormal"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <ImageButton
+                android:id="@+id/WisDownButton"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/ic_triangle_down" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="80dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="ROLL"
+                android:layout_width="match_parent"
+                android:layout_height="85.71dp"
+                android:id="@+id/TapButton7"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColorLink="@android:color/darker_gray"
+                android:fadingEdgeLength="5dp"
+                android:textColor="@android:color/black"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:backgroundTintMode="multiply"
+                android:foreground="@android:color/transparent"
+                android:background="@android:drawable/ic_menu_mylocation" />
+
+
+            <TextView
+                android:text="Cha"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/ChaView"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="36sp"
+                android:background="?attr/colorButtonNormal"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <ImageButton
+                android:id="@+id/ChaUpButton"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/ic_triangle_up" />
+
+            <TextView
+                android:text="@string/ChaStat"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/ChaStat"
+                android:textColor="@android:color/black"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:background="?attr/colorButtonNormal"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <ImageButton
+                android:id="@+id/ChaDownButton"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:adjustViewBounds="false"
+                android:background="@null"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/ic_triangle_down" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/myCoordinatorLayout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Here are the existing layout elements, now wrapped in
+             a CoordinatorLayout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+
+            <!-- …Toolbar, other layouts, other elements… -->
+
+        </LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

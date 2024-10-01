@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_screen2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.garrettp.myfinalproject.MainActivity"
+    android:background="@android:color/darker_gray"
+    android:screenOrientation="landscape">
+
+    <LinearLayout
+        android:layout_width="600dp"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout2"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:id="@+id/d3Down"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="false"
+            android:background="@null"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_triangle_down" />
+
+        <ImageButton
+            android:id="@+id/d6Down"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="false"
+            android:background="@null"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_triangle_down" />
+
+        <ImageButton
+            android:id="@+id/d8Down"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="false"
+            android:background="@null"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_triangle_down" />
+
+        <ImageButton
+            android:id="@+id/d10Down"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="false"
+            android:background="@null"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_triangle_down" />
+
+        <ImageButton
+            android:id="@+id/d12Down"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="false"
+            android:background="@null"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_triangle_down" />
+
+        <ImageButton
+            android:id="@+id/modDown"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="false"
+            android:background="@null"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_triangle_down" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="600dp"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout3"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/d3Dice"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="?attr/colorButtonNormal"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/d6Dice"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="?attr/colorButtonNormal"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/d8Dice"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="?attr/colorButtonNormal"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/d10Dice"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="?attr/colorButtonNormal"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/d12Dice"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="?attr/colorButtonNormal"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/mod"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="+0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp"
+            android:background="?attr/colorButtonNormal"
+            android:gravity="center_vertical|center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="600dp"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout4"
+        android:layout_above="@+id/linearLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:id="@+id/d3Up"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="false"
+            android:background="@null"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_triangle_up" />
+
+        <ImageButton
+            android:id="@+id/d6Up"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="false"
+            android:background="@null"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_triangle_up" />
+
+        <ImageButton
+            android:id="@+id/d8Up"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="false"
+            android:background="@null"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_triangle_up" />
+
+        <ImageButton
+            android:id="@+id/d10Up"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="false"
+            android:background="@null"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_triangle_up" />
+
+        <ImageButton
+            android:id="@+id/d12Up"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="false"
+            android:background="@null"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_triangle_up" />
+
+        <ImageButton
+            android:id="@+id/modUp"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="false"
+            android:background="@null"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_triangle_up" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="600dp"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout5"
+        android:layout_above="@+id/linearLayout4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/d3DiceT"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="?attr/colorButtonNormal"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="D3"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/d6DiceT"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="?attr/colorButtonNormal"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="D6"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/d8DiceT"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="?attr/colorButtonNormal"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="D8"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/d10DiceT"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="?attr/colorButtonNormal"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="D10"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/d12DiceT"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="?attr/colorButtonNormal"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="D12"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/ModT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/colorButtonNormal"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Mod"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="600dp"
+        android:layout_height="89.23dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/Roll"
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:text="Roll" />
+
+        <Button
+            android:id="@+id/Reset"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Reset" />
+    </LinearLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/myCoordinatorLayout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <!-- Here are the existing layout elements, now wrapped in
+             a CoordinatorLayout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- …Toolbar, other layouts, other elements… -->
+
+        </LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

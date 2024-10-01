@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Screen1"
+        android:icon="@drawable/ic_shield_icon"
+        app:showAsAction="always"
+        android:title="Screen1" />
+    <item
+        android:id="@+id/Screen2"
+        android:icon="@drawable/ic_dice_icon"
+        app:showAsAction="always"
+        android:title="Screen2" />
+    <item
+        android:id="@+id/Screen3"
+        android:icon="@drawable/ic_flame_icon"
+        app:showAsAction="always"
+        android:title="Screen3" />
+</menu>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dungeon Helper</string>
+    <string name="DefStat">0</string>
+    <string name="StrStat">0</string>
+    <string name="DexStat">0</string>
+    <string name="ConStat">0</string>
+    <string name="IntStat">0</string>
+    <string name="WisStat">0</string>
+    <string name="ChaStat">0</string>
+</resources>
