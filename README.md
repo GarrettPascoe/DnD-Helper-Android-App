@@ -6,7 +6,7 @@ This was an Android App I created for my mobile development course. It was creat
 and has a different file structure to current 8.x Gradle version with some depreciated components. I am looking to migrate it to
 a new 8.x project, but it is currently on the backburner.
 
-The app three activities that were navigated to using a snackbar component.
+The app has three activities that were navigated to using a snackbar component.
 
 * The main screen was used to track the player character's current stats and the modifiers to rolls given by those stats.
 
